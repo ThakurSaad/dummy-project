@@ -1,0 +1,62 @@
+[
+  {
+    "title": "User Registration Form",
+    "fields": [
+      {
+        "label": "Email",
+        "fieldType": "email",
+        "required": true
+      },
+      {
+        "label": "Password",
+        "fieldType": "password",
+        "required": true
+      },
+      {
+        "label": "Age",
+        "fieldType": "number",
+        "required": false
+      },
+      {
+        "label": "Gender",
+        "fieldType": "radio",
+        "required": true
+      },
+      {
+        "label": "Profile Picture",
+        "fieldType": "file",
+        "required": false
+      }
+    ]
+  },
+  {
+    "title": "Customer Feedback Survey",
+    "fields": [
+      {
+        "label": "Name",
+        "fieldType": "text",
+        "required": true
+      },
+      {
+        "label": "Email Address",
+        "fieldType": "email",
+        "required": true
+      },
+      {
+        "label": "Rating",
+        "fieldType": "number",
+        "required": true
+      },
+      {
+        "label": "Would you recommend us?",
+        "fieldType": "checkbox",
+        "required": false
+      },
+      {
+        "label": "Comments",
+        "fieldType": "text",
+        "required": false
+      }
+    ]
+  }
+]
